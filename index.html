@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    
+</head>
+
+<body>
+
+    <nav>
+        <h2><a class="logo" href="./"><h2></h2>Nils Hartwig</a></h2>
+        <ul class="computer-nav">
+            <!-- <li><a>Projects</a></li> -->
+            <li><a href="./" class="nav-link" data-target="header">Home</a></li>
+            <li><a data-target="about-me-section" href="#about-me-section" class="nav-link">Über mich</a></li>
+            <li><a href="#project-section" class="nav-link" data-target="project-section">Projekte</a></li>
+        </ul>
+        <div class="menu-icon">&#9776;</div>
+        <ul class="mobile-nav">
+            <!-- <li><a>Projects</a></li> -->
+            <li><a href="./" class="nav-link" data-target="header">Home</a></li>
+            <li><a data-target="about-me-section" href="#about-me-section" class="nav-link">Über mich</a></li>
+            <li><a href="#project-section" class="nav-link" data-target="project-section">Projekte</a></li>
+            
+        </ul>
+    </nav>
+
+    <header id="header" class="section header parallax-header">
+        <div class="parallax-content">
+            <div class="opening hidden" >
+                <h1>Ich bin Nils Hartwig</h1>
+                <p >Das ist mein Portfolio</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section" id="about-me-section">
+            <div class="parallax-content2">
+                <div class="about-me">
+                    <!-- <img src="./resources/images/guy-linkedin.jpg" alt="Picture of Guy Guzman" width="400px" height="700px"> -->
+                    <h2 class="hidden">Über mich</h2>
+                    <p class="hidden">Ich bin ein leidenschaftlicher Programmierer mit Fokus auf Game Development und Interesse an Softwareentwicklung.<br><br class="break-mobile"> Mein Ziel ist es benutzerfreundliche und effiziente Software zu entwickeln.<br><br class="break-mobile"> Ich liebe es neue Dinge zu lernen und versuche immer Perfektion zu erreichen.</p>
+                </div>
+                <div class="changing-information">
+                    <div>
+                        <p class="spc-num" id="project-num" data-val="2">2</p>
+                        <p>Projekte</p>
+                    </div>
+    
+                    <div>
+                        <p class="spc-num" id="exp-num">1</p>
+                        <p>Erfahrungsjahre</p>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button id="change-btn" class="custom-button">Sie sind ein Unternehmen? Hier klicken</button>
+                </div>
+            
+                <div class="skills">
+                    <h3>Meine Skills:</h3>
+                 <ul>
+                    <li><img src="./resources/images/html-logo.png" alt="html logo" class="small-logo"></li>
+                    <li><img src="./resources/images/css.png" alt="css logo" class="small-logo"></li>
+                    <li><img src="./resources/images/js-logo.png" alt="javaScript logo" class="small-logo"></li>
+                    <li><img src="./resources/images/python-logo.png" alt="python logo" class="small-logo"></li>
+                    <li><img src="./resources/images/nodejs-original.svg" alt="nodejs logo" class="small-logo"id="nodejs"></li>
+                    <li><img src="./resources/images/Git-Icon.png" alt="git logo" class="small-logo"></li>
+                    <li><img src="./resources/images/github-mark-white.png" alt="github logo" class="small-logo"></li>
+                    <li><img src="./resources/images/unity_icon.png" alt="unity logo" class="small-logo"></li>
+                    <li><img src="./resources/images/c_logo.png" alt="c# logo" class="small-logo"></li>
+                </ul>
+                </ul>
+                </div>
+        </div>
+        </section>
+
+        <section class="section hidden" id="project-section">
+            <h2 class="subject">Meine Projekte</h2>
+            <div class="pc projects-tab">
+                <div class="project">
+                    <p>Flappy Bird</p>
+                    <div class="project-image">
+                        <img src="./resources/images/flappybird.jpg">
+                        <div class="learn-more-button">
+                            <a class="custom-button" target="_blank" href="https://nilsha96.github.io/Web-Flappy-Bird-/" target="_blank">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <p>Mein Github</p>
+                    <div class="project-image">
+                        <img src="./resources/images/gitrepo.png.webp">
+                        <div class="learn-more-button">
+                            <a class="custom-button" href="https://github.com/NilsHa96" target="_blank">Zu Github</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="mobile projects-tab">
+                <div class="project">
+                    <p>Random Messages</p>
+                    <div class="project-image">
+                        <a href="https://github.com/QleanGG/random-messages" target="_blank"><img src="./resources/images/dpr project.png"></a>
+                        <div class="learn-more-button">
+                            <a class="custom-button" target="_blank" href="https://github.com/QleanGG/random-messages">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <p>My Full Repository</p>
+                    <div class="project-image">
+                        <a target="_blank" href="https://github.com/QleanGG"><img src="./resources/images/code project.png"></a>
+                        <div class="learn-more-button">
+                            <a class="custom-button" href="https://github.com/QleanGG" target="_blank">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <h3>Kontakt Informationen:</h3>
+        <p>hartwig-nils@web.de</p>
+        <p>015154198628</p>
+        <p class="sign">Made in 11/2023</p>
+    </footer>
+    <script src="./resources/js/app.js" defer></script>
+</body>
+
+</html>
